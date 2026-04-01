@@ -1,0 +1,5801 @@
+[
+  {
+    "round": 1,
+    "id": "T001",
+    "instruction": "帮我优化一下布局",
+    "category": "排版布局",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "layout-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "layout-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "d36473664892420e"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T002",
+    "instruction": "美化布局",
+    "category": "排版布局",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "layout-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "layout-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "eda02deb5bc142e2"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T003",
+    "instruction": "将所有组件重新排版，进行纵向对齐",
+    "category": "排版布局",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "layout-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "layout-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "1e87e2a8fd0d436e"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T004",
+    "instruction": "重新排版一下",
+    "category": "排版布局",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "layout-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "layout-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "08b5abff3c7f4486"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T005",
+    "instruction": "组件排列太乱了整理一下",
+    "category": "排版布局",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "layout-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "layout-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "f80dcff2acfe4f10"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T006",
+    "instruction": "雾粉色调炫酷一些",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "red",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "exhibition-display",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "49c5a3788f834bf2"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T007",
+    "instruction": "粉色温馨风格",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "red",
+    "actual_theme": "light",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "light",
+      "sceneHint": "clean-fresh",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "29978eac645745c5"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T008",
+    "instruction": "将主题调整为淡蓝色科研风格炫酷一些",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "tech-visual",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "41e8f3bd64cd43f9"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T009",
+    "instruction": "将主题调整为淡蓝色风格，营造有呼吸感的清新氛围",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "light",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "light",
+      "sceneHint": "clean-fresh",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "b2808eff71b34f0b"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T010",
+    "instruction": "将主题调整为绿色科技风格",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "green",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "tech-visual",
+      "primaryColorKey": "green",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "1f3847b6d16a40f7"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T011",
+    "instruction": "将主题调整为翡翠清新风格",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "green",
+    "actual_theme": "light",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "light",
+      "sceneHint": "clean-fresh",
+      "primaryColorKey": "green",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "893ce769d6b84f50"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T012",
+    "instruction": "紫色高端风格，大屏效果",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "purple",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "exhibition-display",
+      "primaryColorKey": "purple",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "58111fface3c40dc"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T013",
+    "instruction": "薰衣草紫浅色主题",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "purple",
+    "actual_theme": "light",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "light",
+      "sceneHint": "clean-fresh",
+      "primaryColorKey": "purple",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "a66a411b29ce4faa"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T014",
+    "instruction": "将主题调整为活力橙效果，炫酷一些",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "orange",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "vibrant-colorful",
+      "primaryColorKey": "orange",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "f8d7c31551bb4d93"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T015",
+    "instruction": "将主题调整暖橙效果，明亮柔和",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "orange",
+    "actual_theme": "light",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "light",
+      "sceneHint": "clean-fresh",
+      "primaryColorKey": "orange",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "ca6a2d40ece7412c"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T016",
+    "instruction": "将主题调整为蒂芙尼蓝配色，暗色主题",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "cyan",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "tech-visual",
+      "primaryColorKey": "cyan",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "e6a4d1f5235f42fd"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T017",
+    "instruction": "将主题调整为青色简洁风格",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "cyan",
+    "actual_theme": "light",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "light",
+      "sceneHint": "clean-fresh",
+      "primaryColorKey": "cyan",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "0688d8157eb946fc"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T018",
+    "instruction": "将主题调整为金色炫酷样式",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "golden",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "exhibition-display",
+      "primaryColorKey": "golden",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "30eedb8cfa194cac"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T019",
+    "instruction": "将主题调整为鸡油黄偏奶油风格",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "golden",
+    "actual_theme": "light",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "light",
+      "sceneHint": "clean-fresh",
+      "primaryColorKey": "golden",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "ec9536a017834615"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T020",
+    "instruction": "将主题调整为千禧风格",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "orange",
+    "actual_theme": "light",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "light",
+      "sceneHint": "vibrant-colorful",
+      "primaryColorKey": "orange",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "445d66d47ab540e3"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T021",
+    "instruction": "将主题调整为商务风格",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "business-report",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "f97269e1b3064e7e"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T022",
+    "instruction": "将主题调整为除夕效果",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "red",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "exhibition-display",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "0acf179e15974a9e"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T023",
+    "instruction": "将主题调整为圣诞风格",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "red",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "exhibition-display",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "c4d3b2eeae994405"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T024",
+    "instruction": "将主题调整为党政风格",
+    "category": "主题美化",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize"
+    ],
+    "actual_color": "red",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "government-dashboard",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "3bc1cbe8ec8b42e8"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T025",
+    "instruction": "将图表配色改为樱花粉效果",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "red",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "26dbe1bc6ee24fd3"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T026",
+    "instruction": "将图表配色改为藕粉",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "red",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "20ca793fbfd94842"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T027",
+    "instruction": "将图表配色改为朱红",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "red",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "36538459bcd14a12"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T028",
+    "instruction": "将图表配色改为粉红",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "red",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "8223394e75b14ad7"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T029",
+    "instruction": "图表配色改为宝石蓝",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "f65d2cbef55544be"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T030",
+    "instruction": "图表配色改为钴蓝色系",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "f88ceddbe2c94aeb"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T031",
+    "instruction": "图表配色改为湖蓝色系",
+    "category": "图表配色",
+    "passed": false,
+    "failures": [
+      "颜色: 期望 blue, 实际 cyan"
+    ],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "cyan",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "cyan",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "4c6332ed31c84e4e"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T032",
+    "instruction": "图表配色改为淡蓝",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "237a69b5538149bf"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T033",
+    "instruction": "图表色系改为翠绿",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "green",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "green",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "152a57a5cfd8466a"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T034",
+    "instruction": "图表色系改为青绿",
+    "category": "图表配色",
+    "passed": false,
+    "failures": [
+      "颜色: 期望 green, 实际 cyan"
+    ],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "cyan",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "cyan",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "01618870f3cd4156"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T035",
+    "instruction": "图表色系改为深绿",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "green",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "green",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "b5f7155e449d407f"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T036",
+    "instruction": "图表色系改为渐变的葡萄紫",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "purple",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "purple",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "454015b6bd464370"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T037",
+    "instruction": "图表色系改为紫罗兰色调",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "purple",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "purple",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "abf9e3ffd8ad4dd3"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T038",
+    "instruction": "将图表配色改为橘红色调",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "orange",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "orange",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "3b5416a48df74689"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T039",
+    "instruction": "将图表配色改为浅橙",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "orange",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "orange",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "75dbcb516ac341ce"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T040",
+    "instruction": "将图表配色改为橘色",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "orange",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "orange",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "9ab57835d5774158"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T041",
+    "instruction": "图表配色改为柠檬黄效果",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "golden",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "golden",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "f72ca1c8d2ee44ae"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T042",
+    "instruction": "图表配色改为香槟金",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "golden",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "golden",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "3ea95b4244754669"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T043",
+    "instruction": "图表配色改为土豪金",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "golden",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "golden",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "6dcc178be15f4da5"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T044",
+    "instruction": "图表配色改为薄荷绿",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "cyan",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "clean-fresh",
+      "primaryColorKey": "cyan",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "a2abeaf65aa246eb"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T045",
+    "instruction": "图表配色改为水绿",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "cyan",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "cyan",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "3461bbc5d78c4d26"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T046",
+    "instruction": "图表配色改为青蓝",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "cyan",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "cyan",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "98fca58745b04d7b"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T047",
+    "instruction": "图表配色改为马卡龙色系",
+    "category": "图表配色",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color"
+    ],
+    "actual_color": "red",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "clean-fresh",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "abf2f1ee0b1e4569"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T048",
+    "instruction": "组件增加阴影样式",
+    "category": "局部样式",
+    "passed": false,
+    "failures": [
+      "阴影: 期望非空, 实际所有组件 boxShadow 均为 []"
+    ],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "5dc691c3d8f742d8"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T049",
+    "instruction": "把组件圆角设为8px",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "929e57995a7a4814"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T050",
+    "instruction": "给图表组件添加阴影效果",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [
+          {
+            "id": "chart-shadow-1",
+            "name": "图表阴影",
+            "style": "",
+            "offsetX": 2,
+            "offsetY": 4,
+            "blur": 8,
+            "spread": 0,
+            "color": "#000000"
+          }
+        ]
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "76a86255ee224dcd"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T051",
+    "instruction": "给组件加上圆角和阴影",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": [
+          {
+            "id": "shadow1",
+            "name": "基础阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 8,
+            "spread": 0,
+            "color": "#0000001A"
+          }
+        ]
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": [
+          {
+            "id": "shadow1",
+            "name": "基础阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 8,
+            "spread": 0,
+            "color": "#0000001A"
+          }
+        ]
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": [
+          {
+            "id": "shadow1",
+            "name": "基础阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 8,
+            "spread": 0,
+            "color": "#0000001A"
+          }
+        ],
+        "fontColor": "#000000"
+      },
+      "taskId": "b94c925995464b5b"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T052",
+    "instruction": "修改页面背景为金色",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "golden",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "golden",
+      "page": {
+        "background": "#FFD700"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "9b0acc91e66b48b3"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T053",
+    "instruction": "圆角设置为50px",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 50
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 50
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 50
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "bec9bc83fcd44351"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T054",
+    "instruction": "设置圆角为100px",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 100
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 100
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 100
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "668ac8e65fa442f9"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T055",
+    "instruction": "加个阴影",
+    "category": "局部样式",
+    "passed": false,
+    "failures": [
+      "阴影: 期望非空, 实际所有组件 boxShadow 均为 []"
+    ],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "e1447d2c81804ffb"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T056",
+    "instruction": "给组件加个边框",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "solid",
+          "borderColor": "#D9D9D9",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "solid",
+          "borderColor": "#D9D9D9",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "solid",
+          "borderColor": "#D9D9D9",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "17cd280e2e9340fb"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T057",
+    "instruction": "去掉组件圆角",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "5cbeb95679d74a2e"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T058",
+    "instruction": "所有组件统一背景",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "165298b398754cc0"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T059",
+    "instruction": "图表背景设置为草绿色",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "green",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "green",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "#90EE90",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "2a4ccd42e398485d"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T060",
+    "instruction": "组件背景改为青色",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "cyan",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "cyan",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "#00FFFF",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "#00FFFF",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "#00FFFF",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "4a06c6ab27d44407"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T061",
+    "instruction": "筛选器组件的圆角设置为20px",
+    "category": "局部样式",
+    "passed": false,
+    "failures": [
+      "圆角: 期望 20px, 实际 0px"
+    ],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 20
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "39764e0c49c04200"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T062",
+    "instruction": "指标卡增加阴影样式",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [
+          {
+            "id": "metric-shadow-1",
+            "name": "指标卡阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 4,
+            "spread": 0,
+            "color": "#0000001A"
+          }
+        ]
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "274fe8f1830441f9"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T063",
+    "instruction": "指标卡设置紫色背景",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "purple",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "purple",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "#800080",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "64138afad94342c2"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T064",
+    "instruction": "图表设置红色背景",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "red",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "#FF0000",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "8fb9436b04034a08"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T065",
+    "instruction": "筛选器设置橙色背景",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "orange",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "orange",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "#FFA500",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "decdf58f4f5044a0"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T066",
+    "instruction": "关闭圆角",
+    "category": "局部样式",
+    "passed": false,
+    "failures": [
+      "工具: 遗漏 ['component-optimize']"
+    ],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "6fbe6b78b3a042fd"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T067",
+    "instruction": "把圆角调大一些大概20px",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 20
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 20
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 20
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "9c6bb2523931498e"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T068",
+    "instruction": "增大组件的阴影效果",
+    "category": "局部样式",
+    "passed": false,
+    "failures": [
+      "阴影: 期望非空, 实际所有组件 boxShadow 均为 []"
+    ],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "f70c80fab73447ae"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T069",
+    "instruction": "去掉组件阴影",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "edd852baf86947a0"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T070",
+    "instruction": "给组件添加一个柔和的阴影",
+    "category": "局部样式",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [
+          {
+            "id": "shadow-1",
+            "name": "柔和阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 8,
+            "spread": 0,
+            "color": "#000000"
+          }
+        ]
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [
+          {
+            "id": "shadow-1",
+            "name": "柔和阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 8,
+            "spread": 0,
+            "color": "#000000"
+          }
+        ]
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [
+          {
+            "id": "shadow-1",
+            "name": "柔和阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 8,
+            "spread": 0,
+            "color": "#000000"
+          }
+        ],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "7c510350f3f24a98"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T071",
+    "instruction": "优化布局添加组件阴影样式并改为雾粉主题图表配色偏马卡龙色系",
+    "category": "复合指令",
+    "passed": false,
+    "failures": [
+      "阴影: 期望非空, 实际所有组件 boxShadow 均为 []"
+    ],
+    "actual_tools": [
+      "layout-optimize",
+      "theme-optimize",
+      "chart-color",
+      "component-optimize"
+    ],
+    "actual_color": "red",
+    "actual_theme": "light",
+    "raw_output": {
+      "visualChangeType": [
+        "layout-optimize",
+        "theme-optimize",
+        "chart-color",
+        "component-optimize"
+      ],
+      "themeMode": "light",
+      "sceneHint": "clean-fresh",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "8def7ac73b0842a7"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T072",
+    "instruction": "帮我重新布局一下顺便换个蓝色主题",
+    "category": "复合指令",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "layout-optimize",
+      "theme-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "layout-optimize",
+        "theme-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "008207fe31ad4d1d"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T073",
+    "instruction": "美化布局并将主题改为千禧风",
+    "category": "复合指令",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "layout-optimize",
+      "theme-optimize"
+    ],
+    "actual_color": "red",
+    "actual_theme": "light",
+    "raw_output": {
+      "visualChangeType": [
+        "layout-optimize",
+        "theme-optimize"
+      ],
+      "themeMode": "light",
+      "sceneHint": "vibrant-colorful",
+      "primaryColorKey": "red",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "5abf60a38c334d89"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T074",
+    "instruction": "给所有组件加圆角和阴影再优化下配色",
+    "category": "复合指令",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "chart-color",
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [
+        "chart-color",
+        "component-optimize"
+      ],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": [
+          {
+            "id": "shadow-1",
+            "name": "基础阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 8,
+            "spread": 0,
+            "color": "#0000001A"
+          }
+        ]
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": [
+          {
+            "id": "shadow-1",
+            "name": "基础阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 8,
+            "spread": 0,
+            "color": "#0000001A"
+          }
+        ]
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": [
+          {
+            "id": "shadow-1",
+            "name": "基础阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 8,
+            "spread": 0,
+            "color": "#0000001A"
+          }
+        ],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "72383dee7bc54067"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T075",
+    "instruction": "全面美化重排布局换深色主题统一组件风格",
+    "category": "复合指令",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "layout-optimize",
+      "theme-optimize",
+      "component-optimize"
+    ],
+    "actual_color": "blue",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "layout-optimize",
+        "theme-optimize",
+        "component-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "eef6624a4b4c4410"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T076",
+    "instruction": "调整为绿色科技风格，同时调整仪表板布局，统一组件背景。并返回具体的调整过程，将调用的工具和参数打印出",
+    "category": "复合指令",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [
+      "theme-optimize",
+      "layout-optimize",
+      "component-optimize"
+    ],
+    "actual_color": "green",
+    "actual_theme": "dark",
+    "raw_output": {
+      "visualChangeType": [
+        "theme-optimize",
+        "layout-optimize",
+        "component-optimize"
+      ],
+      "themeMode": "dark",
+      "sceneHint": "tech-visual",
+      "primaryColorKey": "green",
+      "page": {
+        "background": "#1A2F1A"
+      },
+      "metric": {
+        "background": "#2C4A2C",
+        "borderLine": {
+          "borderStyle": "solid",
+          "borderColor": "#3A6B3A",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": [
+          {
+            "id": "metric-shadow",
+            "name": "科技感阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 12,
+            "spread": 0,
+            "color": "#1A2F1A"
+          }
+        ]
+      },
+      "chart": {
+        "background": "#2C4A2C",
+        "borderLine": {
+          "borderStyle": "solid",
+          "borderColor": "#3A6B3A",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": [
+          {
+            "id": "chart-shadow",
+            "name": "科技感阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 12,
+            "spread": 0,
+            "color": "#1A2F1A"
+          }
+        ]
+      },
+      "filter": {
+        "background": "#2C4A2C",
+        "borderLine": {
+          "borderStyle": "solid",
+          "borderColor": "#3A6B3A",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": true,
+          "value": 8
+        },
+        "boxShadow": [
+          {
+            "id": "filter-shadow",
+            "name": "科技感阴影",
+            "style": "",
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 12,
+            "spread": 0,
+            "color": "#1A2F1A"
+          }
+        ],
+        "fontColor": "#E8F5E8"
+      },
+      "taskId": "22af6f7574134787"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T077",
+    "instruction": "主标题变炫酷一些",
+    "category": "拒识",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "a7393f05cde94cc2"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T078",
+    "instruction": "主标题加个阴影",
+    "category": "拒识",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "2abde9db5b6746e9"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T079",
+    "instruction": "主标题背景改为蓝色",
+    "category": "拒识",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "d3e45a33ffeb45f5"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T080",
+    "instruction": "主标题增加圆角",
+    "category": "拒识",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "d58bac8eb5804be5"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T081",
+    "instruction": "帮我改一下图表的数据",
+    "category": "拒识",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "9ccda4a7629e49d7"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T082",
+    "instruction": "删除第一个组件",
+    "category": "拒识",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "f7f9640578b34c77"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T083",
+    "instruction": "把标题字体改大",
+    "category": "拒识",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "4ba302be04d047a7"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T084",
+    "instruction": "表头换成鸡油黄",
+    "category": "拒识",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "background": "none",
+        "fontColor": "#000000"
+      },
+      "taskId": "37a37826cd2f4597"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T085",
+    "instruction": "今天天气怎么样",
+    "category": "拒识",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "809ef451d90744e5"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T086",
+    "instruction": "主标题加一个20px的边框",
+    "category": "拒识",
+    "passed": true,
+    "failures": [],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 0
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "6a8079429c844fb0"
+    }
+  },
+  {
+    "round": 1,
+    "id": "T087",
+    "instruction": "将当前仪表板变好看一点",
+    "category": "鲁棒性",
+    "passed": false,
+    "failures": [
+      "工具: 期望非空, 实际为空 []"
+    ],
+    "actual_tools": [],
+    "actual_color": "blue",
+    "actual_theme": "keep",
+    "raw_output": {
+      "visualChangeType": [],
+      "themeMode": "keep",
+      "sceneHint": "normal-dashboard",
+      "primaryColorKey": "blue",
+      "page": {
+        "background": "none"
+      },
+      "metric": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "chart": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": []
+      },
+      "filter": {
+        "background": "none",
+        "borderLine": {
+          "borderStyle": "none",
+          "borderColor": "#000000",
+          "borderWidth": 1
+        },
+        "borderRadius": {
+          "enable": false,
+          "value": 0
+        },
+        "boxShadow": [],
+        "fontColor": "#000000"
+      },
+      "taskId": "918997287f4046e9"
+    }
+  }
+]
