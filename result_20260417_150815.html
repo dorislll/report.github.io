@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI 美化意图识别测试报告</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f7fa; color: #333; padding: 24px; }
+.container { max-width: 1400px; margin: 0 auto; }
+h1 { font-size: 22px; font-weight: 600; margin-bottom: 6px; }
+.subtitle { color: #888; font-size: 13px; margin-bottom: 24px; }
+
+/* 概览卡片 */
+.summary { display: flex; gap: 16px; margin-bottom: 24px; }
+.card { background: #fff; border-radius: 10px; padding: 20px 24px; flex: 1; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+.card-title { font-size: 12px; color: #999; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+.card-value { font-size: 32px; font-weight: 700; }
+.card-value.green { color: #52c41a; }
+.card-value.red { color: #ff4d4f; }
+.card-value.orange { color: #faad14; }
+.card-value.blue { color: #1890ff; }
+
+/* 进度环 */
+.ring-container { display: flex; align-items: center; gap: 16px; }
+.ring { width: 64px; height: 64px; }
+
+/* 分类统计 */
+.section { background: #fff; border-radius: 10px; padding: 20px 24px; margin-bottom: 24px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+.section h2 { font-size: 15px; font-weight: 600; margin-bottom: 14px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; padding: 8px 10px; border-bottom: 2px solid #eee; color: #888; font-weight: 500; white-space: nowrap; }
+td { padding: 8px 10px; border-bottom: 1px solid #f0f0f0; vertical-align: middle; }
+
+/* 状态 */
+.status-badge { display: inline-block; padding: 2px 10px; border-radius: 10px; font-size: 12px; font-weight: 500; }
+.status-badge.pass { background: #f6ffed; color: #52c41a; border: 1px solid #b7eb8f; }
+.status-badge.fail { background: #fff2f0; color: #ff4d4f; border: 1px solid #ffccc7; }
+.status-badge.unstable { background: #fffbe6; color: #faad14; border: 1px solid #ffe58f; }
+
+.cat-badge { display: inline-block; padding: 1px 8px; border-radius: 4px; font-size: 11px; background: #f0f5ff; color: #1890ff; white-space: nowrap; }
+
+.dot { display: inline-block; width: 14px; height: 14px; border-radius: 50%; margin-right: 3px; vertical-align: middle; }
+.dot.pass { background: #52c41a; }
+.dot.fail { background: #ff4d4f; }
+.rate { color: #888; font-size: 12px; margin-left: 4px; }
+
+.instruction { max-width: 320px; word-break: break-all; }
+.failure-text { color: #ff4d4f; font-size: 12px; }
+
+code { background: #f5f5f5; padding: 1px 5px; border-radius: 3px; font-size: 12px; }
+
+.num-pass { color: #52c41a; font-weight: 600; }
+.num-fail { color: #ff4d4f; font-weight: 600; }
+.num-unstable { color: #faad14; font-weight: 600; }
+
+.bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: #f0f0f0; min-width: 120px; }
+.bar-pass { background: #52c41a; }
+.bar-unstable { background: #faad14; }
+.bar-fail { background: #ff4d4f; }
+
+.pass-row td:first-child { border-left: 3px solid #52c41a; }
+.fail-row td:first-child { border-left: 3px solid #ff4d4f; }
+.unstable-row td:first-child { border-left: 3px solid #faad14; }
+
+tr:hover { background: #fafafa; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>AI 美化意图识别测试报告</h1>
+  <div class="subtitle">运行时间: 2026-04-17 15:08:15 &nbsp;|&nbsp; 用例数: 94 &nbsp;|&nbsp; 轮数: 1</div>
+
+  <div class="summary">
+    <div class="card">
+      <div class="card-title">通过率</div>
+      <div class="card-value orange">89%</div>
+    </div>
+    <div class="card">
+      <div class="card-title">稳定通过</div>
+      <div class="card-value green">84</div>
+    </div>
+    <div class="card">
+      <div class="card-title">不稳定</div>
+      <div class="card-value orange">0</div>
+    </div>
+    <div class="card">
+      <div class="card-title">必定失败</div>
+      <div class="card-value red">10</div>
+    </div>
+    <div class="card">
+      <div class="card-title">总用例</div>
+      <div class="card-value blue">94</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>分类统计</h2>
+    <table>
+      <tr><th>分类</th><th>总数</th><th>通过</th><th>不稳定</th><th>失败</th><th>通过率</th></tr>
+      <tr>
+  <td>排版布局</td>
+  <td>5</td>
+  <td class="num-pass">4</td>
+  <td class="num-unstable">0</td>
+  <td class="num-fail">1</td>
+  <td><div class="bar"><div class="bar-pass" style="width:80%"></div><div class="bar-unstable" style="width:0%"></div><div class="bar-fail" style="width:20%"></div></div></td>
+</tr><tr>
+  <td>主题美化</td>
+  <td>19</td>
+  <td class="num-pass">19</td>
+  <td class="num-unstable">0</td>
+  <td class="num-fail">0</td>
+  <td><div class="bar"><div class="bar-pass" style="width:100%"></div><div class="bar-unstable" style="width:0%"></div><div class="bar-fail" style="width:0%"></div></div></td>
+</tr><tr>
+  <td>图表配色</td>
+  <td>23</td>
+  <td class="num-pass">21</td>
+  <td class="num-unstable">0</td>
+  <td class="num-fail">2</td>
+  <td><div class="bar"><div class="bar-pass" style="width:91%"></div><div class="bar-unstable" style="width:0%"></div><div class="bar-fail" style="width:8%"></div></div></td>
+</tr><tr>
+  <td>局部样式</td>
+  <td>30</td>
+  <td class="num-pass">25</td>
+  <td class="num-unstable">0</td>
+  <td class="num-fail">5</td>
+  <td><div class="bar"><div class="bar-pass" style="width:83%"></div><div class="bar-unstable" style="width:0%"></div><div class="bar-fail" style="width:16%"></div></div></td>
+</tr><tr>
+  <td>复合指令</td>
+  <td>6</td>
+  <td class="num-pass">5</td>
+  <td class="num-unstable">0</td>
+  <td class="num-fail">1</td>
+  <td><div class="bar"><div class="bar-pass" style="width:83%"></div><div class="bar-unstable" style="width:0%"></div><div class="bar-fail" style="width:16%"></div></div></td>
+</tr><tr>
+  <td>拒识</td>
+  <td>10</td>
+  <td class="num-pass">10</td>
+  <td class="num-unstable">0</td>
+  <td class="num-fail">0</td>
+  <td><div class="bar"><div class="bar-pass" style="width:100%"></div><div class="bar-unstable" style="width:0%"></div><div class="bar-fail" style="width:0%"></div></div></td>
+</tr><tr>
+  <td>鲁棒性</td>
+  <td>1</td>
+  <td class="num-pass">0</td>
+  <td class="num-unstable">0</td>
+  <td class="num-fail">1</td>
+  <td><div class="bar"><div class="bar-pass" style="width:0%"></div><div class="bar-unstable" style="width:0%"></div><div class="bar-fail" style="width:100%"></div></div></td>
+</tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>用例详情</h2>
+    <table>
+      <tr><th>ID</th><th>分类</th><th>用户指令</th><th>期望工具</th><th>实际工具</th><th>轮次结果</th><th>状态</th><th>失败原因</th></tr>
+      <tr class="pass-row">
+  <td><code>T001</code></td>
+  <td><span class="cat-badge">排版布局</span></td>
+  <td class="instruction">帮我优化一下布局</td>
+  <td><code>layout-optimize</code></td>
+  <td><code>layout-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T002</code></td>
+  <td><span class="cat-badge">排版布局</span></td>
+  <td class="instruction">美化布局</td>
+  <td><code>layout-optimize</code></td>
+  <td><code>layout-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="fail-row">
+  <td><code>T003</code></td>
+  <td><span class="cat-badge">排版布局</span></td>
+  <td class="instruction">将所有组件重新排版，进行纵向对齐</td>
+  <td><code>layout-optimize</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot fail"></span> <span class="rate">0/1</span></td>
+  <td><span class="status-badge fail">必定失败</span></td>
+  <td><span class="failure-text">工具: 遗漏 ['layout-optimize']</span></td>
+</tr><tr class="pass-row">
+  <td><code>T004</code></td>
+  <td><span class="cat-badge">排版布局</span></td>
+  <td class="instruction">重新排版一下</td>
+  <td><code>layout-optimize</code></td>
+  <td><code>layout-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T005</code></td>
+  <td><span class="cat-badge">排版布局</span></td>
+  <td class="instruction">组件排列太乱了整理一下</td>
+  <td><code>layout-optimize</code></td>
+  <td><code>layout-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T006</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">雾粉色调炫酷一些</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T007</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">粉色温馨风格</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T008</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为淡蓝色科研风格炫酷一些</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T009</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为淡蓝色风格，营造有呼吸感的清新氛围</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T010</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为绿色科技风格</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T011</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为翡翠清新风格</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T012</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">紫色高端风格，大屏效果</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T013</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">薰衣草紫浅色主题</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T014</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为活力橙效果，炫酷一些</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T015</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整暖橙效果，明亮柔和</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T016</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为蒂芙尼蓝配色，暗色主题</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T017</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为青色简洁风格</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T018</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为金色炫酷样式</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T019</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为鸡油黄偏奶油风格</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T020</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为千禧风格</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T021</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为商务风格</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T022</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为除夕效果</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T023</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为圣诞风格</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T024</code></td>
+  <td><span class="cat-badge">主题美化</span></td>
+  <td class="instruction">将主题调整为党政风格</td>
+  <td><code>theme-optimize</code></td>
+  <td><code>theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T025</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">将图表配色改为樱花粉效果</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T026</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">将图表配色改为藕粉</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T027</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">将图表配色改为朱红</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T028</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">将图表配色改为粉红</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T029</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为宝石蓝</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T030</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为钴蓝色系</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="fail-row">
+  <td><code>T031</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为湖蓝色系</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot fail"></span> <span class="rate">0/1</span></td>
+  <td><span class="status-badge fail">必定失败</span></td>
+  <td><span class="failure-text">颜色: 期望 blue, 实际 cyan</span></td>
+</tr><tr class="pass-row">
+  <td><code>T032</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为淡蓝</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T033</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表色系改为翠绿</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="fail-row">
+  <td><code>T034</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表色系改为青绿</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot fail"></span> <span class="rate">0/1</span></td>
+  <td><span class="status-badge fail">必定失败</span></td>
+  <td><span class="failure-text">颜色: 期望 green, 实际 cyan</span></td>
+</tr><tr class="pass-row">
+  <td><code>T035</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表色系改为深绿</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T036</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表色系改为渐变的葡萄紫</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T037</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表色系改为紫罗兰色调</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T038</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">将图表配色改为橘红色调</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T039</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">将图表配色改为浅橙</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T040</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">将图表配色改为橘色</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T041</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为柠檬黄效果</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T042</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为香槟金</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T043</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为土豪金</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T044</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为薄荷绿</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T045</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为水绿</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T046</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为青蓝</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T047</code></td>
+  <td><span class="cat-badge">图表配色</span></td>
+  <td class="instruction">图表配色改为马卡龙色系</td>
+  <td><code>chart-color</code></td>
+  <td><code>chart-color</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T048</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">修改页面背景为金色</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T049</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">组件背景改为青色</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T050</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">图表背景设置为草绿色</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T051</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">所有组件统一背景</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T052</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">图表设置红色背景</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T053</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">筛选器设置橙色背景</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T054</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">指标卡设置紫色背景</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T055</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">给组件加个边框</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T056</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">给筛选器增加一个绿色边框</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T057</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">给图表增加一个紫色的边框</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T058</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">给指标卡增加一个3px的金色边框</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T059</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">把组件圆角设为8px</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="fail-row">
+  <td><code>T060</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">筛选器圆角设置为50px</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot fail"></span> <span class="rate">0/1</span></td>
+  <td><span class="status-badge fail">必定失败</span></td>
+  <td><span class="failure-text">圆角: 期望 50px, 实际 0px</span></td>
+</tr><tr class="fail-row">
+  <td><code>T061</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">图表组件设置圆角为100px</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot fail"></span> <span class="rate">0/1</span></td>
+  <td><span class="status-badge fail">必定失败</span></td>
+  <td><span class="failure-text">圆角: 期望 100px, 实际 0px</span></td>
+</tr><tr class="pass-row">
+  <td><code>T062</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">指标卡设置圆角为20px</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T063</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">去掉组件圆角</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="fail-row">
+  <td><code>T064</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">组件增加阴影样式</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot fail"></span> <span class="rate">0/1</span></td>
+  <td><span class="status-badge fail">必定失败</span></td>
+  <td><span class="failure-text">阴影: 期望非空, 实际所有组件 boxShadow 均为 []</span></td>
+</tr><tr class="pass-row">
+  <td><code>T065</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">指标卡增加阴影样式</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T066</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">给图表组件添加阴影效果</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T067</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">给组件添加一个柔和的阴影</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T068</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">筛选器组件增加一个黄色的阴影</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T069</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">图表增加淡绿色阴影</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T070</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">指标卡增加肉粉阴影</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T071</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">加个阴影</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T072</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">给组件加上圆角和阴影</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="fail-row">
+  <td><code>T073</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">关闭圆角</td>
+  <td><code>component-optimize</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot fail"></span> <span class="rate">0/1</span></td>
+  <td><span class="status-badge fail">必定失败</span></td>
+  <td><span class="failure-text">工具: 遗漏 ['component-optimize']</span></td>
+</tr><tr class="pass-row">
+  <td><code>T074</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">把圆角调大一些大概20px</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="fail-row">
+  <td><code>T075</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">增大组件的阴影效果</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot fail"></span> <span class="rate">0/1</span></td>
+  <td><span class="status-badge fail">必定失败</span></td>
+  <td><span class="failure-text">阴影: 期望非空, 实际所有组件 boxShadow 均为 []</span></td>
+</tr><tr class="pass-row">
+  <td><code>T076</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">去掉组件阴影</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T077</code></td>
+  <td><span class="cat-badge">局部样式</span></td>
+  <td class="instruction">页面背景调整为鸡油黄色，指标卡设置紫色边框，图表增加淡绿色背景，筛选器增加圆角和阴影</td>
+  <td><code>component-optimize</code></td>
+  <td><code>component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="fail-row">
+  <td><code>T078</code></td>
+  <td><span class="cat-badge">复合指令</span></td>
+  <td class="instruction">优化布局添加组件阴影样式并改为雾粉主题图表配色偏马卡龙色系</td>
+  <td><code>layout-optimize,theme-optimize,component-optimize,chart-color</code></td>
+  <td><code>layout-optimize,theme-optimize,chart-color,component-optimize</code></td>
+  <td><span class="dot fail"></span> <span class="rate">0/1</span></td>
+  <td><span class="status-badge fail">必定失败</span></td>
+  <td><span class="failure-text">阴影: 期望非空, 实际所有组件 boxShadow 均为 []</span></td>
+</tr><tr class="pass-row">
+  <td><code>T079</code></td>
+  <td><span class="cat-badge">复合指令</span></td>
+  <td class="instruction">帮我重新布局一下顺便换个蓝色主题</td>
+  <td><code>layout-optimize,theme-optimize</code></td>
+  <td><code>layout-optimize,theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T080</code></td>
+  <td><span class="cat-badge">复合指令</span></td>
+  <td class="instruction">美化布局并将主题改为千禧风</td>
+  <td><code>layout-optimize,theme-optimize</code></td>
+  <td><code>layout-optimize,theme-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T081</code></td>
+  <td><span class="cat-badge">复合指令</span></td>
+  <td class="instruction">给所有组件加圆角和阴影再优化下配色</td>
+  <td><code>component-optimize,chart-color</code></td>
+  <td><code>chart-color,component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T082</code></td>
+  <td><span class="cat-badge">复合指令</span></td>
+  <td class="instruction">全面美化重排布局换深色主题统一组件风格</td>
+  <td><code>layout-optimize,theme-optimize,component-optimize</code></td>
+  <td><code>layout-optimize,theme-optimize,component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T083</code></td>
+  <td><span class="cat-badge">复合指令</span></td>
+  <td class="instruction">调整为绿色科技风格，同时调整仪表板布局，统一组件背景。并返回具体的调整过程，将调用的工具和参数打印出</td>
+  <td><code>layout-optimize,theme-optimize,component-optimize</code></td>
+  <td><code>theme-optimize,layout-optimize,component-optimize</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T084</code></td>
+  <td><span class="cat-badge">拒识</span></td>
+  <td class="instruction">主标题变炫酷一些</td>
+  <td><code>[]</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T085</code></td>
+  <td><span class="cat-badge">拒识</span></td>
+  <td class="instruction">主标题加个阴影</td>
+  <td><code>[]</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T086</code></td>
+  <td><span class="cat-badge">拒识</span></td>
+  <td class="instruction">主标题背景改为蓝色</td>
+  <td><code>[]</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T087</code></td>
+  <td><span class="cat-badge">拒识</span></td>
+  <td class="instruction">主标题增加圆角</td>
+  <td><code>[]</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T088</code></td>
+  <td><span class="cat-badge">拒识</span></td>
+  <td class="instruction">帮我改一下图表的数据</td>
+  <td><code>[]</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T089</code></td>
+  <td><span class="cat-badge">拒识</span></td>
+  <td class="instruction">删除第一个组件</td>
+  <td><code>[]</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T090</code></td>
+  <td><span class="cat-badge">拒识</span></td>
+  <td class="instruction">把标题字体改大</td>
+  <td><code>[]</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T091</code></td>
+  <td><span class="cat-badge">拒识</span></td>
+  <td class="instruction">表头换成鸡油黄</td>
+  <td><code>[]</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T092</code></td>
+  <td><span class="cat-badge">拒识</span></td>
+  <td class="instruction">今天天气怎么样</td>
+  <td><code>[]</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="pass-row">
+  <td><code>T093</code></td>
+  <td><span class="cat-badge">拒识</span></td>
+  <td class="instruction">主标题加一个20px的边框</td>
+  <td><code>[]</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot pass"></span> <span class="rate">1/1</span></td>
+  <td><span class="status-badge pass">稳定通过</span></td>
+  <td></td>
+</tr><tr class="fail-row">
+  <td><code>T094</code></td>
+  <td><span class="cat-badge">鲁棒性</span></td>
+  <td class="instruction">将当前仪表板变好看一点</td>
+  <td><code>*</code></td>
+  <td><code>[]</code></td>
+  <td><span class="dot fail"></span> <span class="rate">0/1</span></td>
+  <td><span class="status-badge fail">必定失败</span></td>
+  <td><span class="failure-text">工具: 期望非空, 实际为空 []</span></td>
+</tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>
